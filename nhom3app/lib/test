@@ -1,0 +1,505 @@
+Container(
+              height: 160,
+              // width: double.infinity,
+              // color: Colors.blue[900],
+              margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
+              padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+              decoration: BoxDecoration(
+                  // image:DecorationImage(
+                  //     image: AssetImage('assest/clpic.jpg'),
+                  //     ),
+                color: Colors.blue,
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        "QTDAPM",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                      PopupMenuButton(
+                          color: Colors.white,
+                          icon: const Icon(Icons.more_horiz),
+                          itemBuilder: (context) => [
+                            PopupMenuItem(child: Row(
+                              children: [
+                                Text(
+                                  "Hủy đăng ký",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                  ),)
+                              ],
+                            ))
+                          ]
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Hân Nguyễn Mậu",
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              )
+            ),
+            Container(
+                height: 160,
+                // width: double.infinity,
+                // color: Colors.blue[900],
+                margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
+                padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                decoration: BoxDecoration(
+                  // image:DecorationImage(
+                  //     image: AssetImage('assest/clpic.jpg'),
+                  //     ),
+                  color: Colors.green,
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Lập trình ứng dụng di động",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        PopupMenuButton(
+                            color: Colors.white,
+                            icon: const Icon(Icons.more_horiz),
+                            itemBuilder: (context) => [
+                              PopupMenuItem(child: Row(
+                                children: [
+                                  Text(
+                                    "Hủy đăng ký",
+                                    style: TextStyle(
+                                      color: Colors.black,
+                                    ),)
+                                ],
+                              ))
+                            ]
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "Nguyễn Dũng",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                )
+            ),
+            Container(
+                height: 160,
+                // width: double.infinity,
+                // color: Colors.blue[900],
+                margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
+                padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                decoration: BoxDecoration(
+                  // image:DecorationImage(
+                  //     image: AssetImage('assest/clpic.jpg'),
+                  //     ),
+                  color: Colors.orange,
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Lập trình hướng đối tượng",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        PopupMenuButton(
+                            color: Colors.white,
+                            icon: const Icon(Icons.more_horiz),
+                            itemBuilder: (context) => [
+                              PopupMenuItem(child: Row(
+                                children: [
+                                  Text(
+                                    "Hủy đăng ký",
+                                    style: TextStyle(
+                                      color: Colors.black,
+                                    ),)
+                                ],
+                              ))
+                            ]
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "Trương Công Tuấn",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                )
+            ),
+            Container(
+                height: 160,
+                // width: double.infinity,
+                // color: Colors.blue[900],
+                margin: EdgeInsets.fromLTRB(10, 10, 10, 0),
+                padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                decoration: BoxDecoration(
+                  // image:DecorationImage(
+                  //     image: AssetImage('assest/clpic.jpg'),
+                  //     ),
+                  color: Colors.pink,
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Ngôn ngữ truy vấn có cấu trúc SQL",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.w400,
+                          ),
+                        ),
+                        PopupMenuButton(
+                            color: Colors.white,
+                            icon: const Icon(Icons.more_horiz),
+                            itemBuilder: (context) => [
+                              PopupMenuItem(child: Row(
+                                children: [
+                                  Text(
+                                    "Hủy đăng ký",
+                                    style: TextStyle(
+                                      color: Colors.black,
+                                    ),)
+                                ],
+                              ))
+                            ]
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "Phương Chi Trần",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                )
+            ),
+
+
+
+
+            // ElevatedButton(
+                        //   onPressed: (){},
+                        //   style: ElevatedButton.styleFrom(
+                        //     backgroundColor: Colors.blue,
+                        //     foregroundColor: Colors.purpleAccent,
+                        //   ),
+                        //
+                        //   child: Container(
+                        //     margin: EdgeInsets.all(10),
+                        //     padding: EdgeInsets.all(80),
+                        //     // decoration: BoxDecoration(
+                        //     //   borderRadius: BorderRadius.all(Radius.circular(20)),
+                        //     // ),
+                        //   ),
+                        // ),
+
+
+
+
+
+             padding: const EdgeInsets.only(top: 30, left: 20),
+                      child: Column(
+                        children: [
+                          // title
+                          Container(
+                              child: Row(
+                                children: [
+                                  Text(
+                                    "G",
+                                    style: TextStyle(
+                                      color: Colors.blue,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  Text(
+                                    "o",
+                                    style: TextStyle(
+                                      color: Colors.red,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  Text(
+                                    "o",
+                                    style: TextStyle(
+                                      color: Colors.yellow,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  Text(
+                                    "g",
+                                    style: TextStyle(
+                                      color: Colors.blue,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  Text(
+                                    "l",
+                                    style: TextStyle(
+                                      color: Colors.green,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  Text(
+                                    "e",
+                                    style: TextStyle(
+                                      color: Colors.red,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                  Text(
+                                    " Classroom",
+                                    style: TextStyle(
+                                      color: Colors.grey,
+                                      fontWeight: FontWeight.w300,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                ],
+                              )
+                          ),
+                          Container( // tạo thanh ngang
+                            height: 1,
+                            margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
+                            decoration: BoxDecoration(
+                              border: Border.all(color: Colors.grey, style: BorderStyle.solid),
+                            ),
+                          ),
+                          // home and calender
+                          Container(
+                            child: Row(
+                              children: [
+                                Text(
+                                  "Lớp học",
+                                  style: TextStyle(
+                                    color: Colors.blue
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          // practice signed and class
+                          Container(),
+                          // others
+                          Container(),
+                        ],
+                      ),
+
+
+
+                      child: Column(
+                                children: [
+                                  // title
+                                  Container(
+                                    margin: EdgeInsets.fromLTRB(20, 30, 0, 20),
+                                    child: Row(
+                                      children: [
+                                        Text(
+                                          "G",
+                                          style: TextStyle(
+                                            color: Colors.blue,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                        Text(
+                                          "o",
+                                          style: TextStyle(
+                                            color: Colors.red,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                        Text(
+                                          "o",
+                                          style: TextStyle(
+                                            color: Colors.yellow,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                        Text(
+                                          "g",
+                                          style: TextStyle(
+                                            color: Colors.blue,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                        Text(
+                                          "l",
+                                          style: TextStyle(
+                                            color: Colors.green,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                        Text(
+                                          "e",
+                                          style: TextStyle(
+                                            color: Colors.red,
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                        Text(
+                                          " Classroom",
+                                          style: TextStyle(
+                                            color: Colors.grey,
+                                            fontWeight: FontWeight.w300,
+                                            fontSize: 20,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  // tạo thanh unnderline
+                                  Container(
+                                    height: 1,
+                                    decoration: BoxDecoration(
+                                        border: Border.fromBorderSide(BorderSide(
+                                          color: Colors.grey,
+                                          style: BorderStyle.solid,
+                                        ))
+                                    ),
+                                  ),
+                                  Container(
+                                    child: Column(
+                                      children: [
+
+                                      ],
+                                    ),
+                                  ),
+                                  Container(
+                                    margin: EdgeInsets.fromLTRB(20, 15, 0, 10),
+                                    child: Column(
+                                      children: [
+                                        Row(
+                                          children: [
+                                            Text(
+                                              "ĐÃ ĐĂNG KÝ",
+                                              style: TextStyle(
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.normal,
+                                                color: Colors.grey,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ],
+                                    )
+                                  )
+                                ],
+                              ),
+
+
+
+
+
+
+
+
+
+
+
+
+               Container(
+                                 height: 500,
+                                 child: ListView(
+                                   //scrollDirection: Axis.vertical,
+                                   children: lsMenuClass.map((e){
+                                     return Container(
+                                       child: Row(
+                                         children: [
+                                           Column(
+                                             children: [
+                                               Container(
+                                                 margin: EdgeInsets.fromLTRB(15, 0, 0, 20),
+                                                 child: FloatingActionButton.small(
+                                                   child: Text(
+                                                     e.icon,
+                                                     style: TextStyle(fontSize: 12.0),
+                                                   ),
+                                                   onPressed: () {},
+                                                   backgroundColor: e.color,
+                                                 ),
+                                               )
+                                             ],
+                                           ),
+                                           Container(
+                                             margin: EdgeInsets.fromLTRB(20, 0, 0, 0),
+                                             child: Column(
+                                               children: [
+                                                 Text(
+                                                   e.className,
+                                                 ),
+                                                 Text(
+                                                   e.teacherName
+                                                 ),
+                                               ],
+                                             ),
+                                           )
+                                         ],
+                                       ),
+                                     );
+                                   }).toList(),
+                                 ),
+                               ),
